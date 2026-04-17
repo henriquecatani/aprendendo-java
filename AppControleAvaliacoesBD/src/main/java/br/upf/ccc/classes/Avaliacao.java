@@ -4,10 +4,14 @@
  */
 package br.upf.ccc.classes;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
 /**
  *
  * @author 210305@upf.br
  */
+@Entity
 public class Avaliacao {
 
 	public Avaliacao(Integer matricula, String nome, Float notaUm, Float notaDois, Float notaTres, Float notaRecuperacao, Float notaExame) throws Exception {
@@ -19,6 +23,7 @@ public class Avaliacao {
 		setNotaRecuperacao(notaRecuperacao);
 		setNotaExame(notaExame);
 	}
+	@Id
 	private Integer matricula;
 	private String nome;
 	private Float notaUm;
