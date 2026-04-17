@@ -3,10 +3,14 @@ package br.upf.ccc.appaula2.forms;
 import javax.swing.*;
 
 public class TelaContas {
-    private JPanel panel1;
+    private JPanel contentPane;
     private JTable table1;
-    private JButton button1;
-    private JButton button2;
-    private JButton button3;
-    private JButton button4;
+    private JButton b_add;
+    private JButton btnRemove;
+    private JButton btnModify;
+    private JButton btnList;
+
+    private void createUIComponents() {
+        // TODO: place custom component creation code here
+    }
 }
